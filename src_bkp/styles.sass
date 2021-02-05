@@ -2,7 +2,7 @@
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css'
 
 mat-toolbar
-    // justify-content: space-between
+    justify-content: space-between
 
 mat-progress-spinner
     display: none !important
@@ -10,8 +10,21 @@ mat-progress-spinner
 mat-sidenav
     padding: 20px
 
+.mat-card-avatar
+    width: 60px !important
+    height: 60px !important
+
+.mat-card-avatar img
+    width: 100%
+
+mat-card-content
+    padding: 10px
+
 .content
     padding: 16px
+
+.content > mat-card
+   width: 200px
 
 .text-center 
     text-align: center    
@@ -47,14 +60,13 @@ mat-sidenav
     background-color: #a4acaf
     color: #fff
 
+.mat-card-image
+    width: 30% !important
+    display: flex !important
+    margin: 0 auto !important
+
 .pull-right
     float: right
 
 .pokemon-name
     text-transform: capitalize
-
-.capitalize 
-    text-transform: capitalize
-
-.margin-center
-    margin: 0 auto

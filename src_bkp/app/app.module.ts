@@ -19,11 +19,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { DetailComponent } from './pages/detail/detail.component';
 import { ListComponent } from './pages/list/list.component';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
-import { MatTooltipModule } from '@angular/material/tooltip';
-import { MatIconModule } from '@angular/material/icon';
-import { MatPaginatorModule } from '@angular/material/paginator';
-import { Ng2SearchPipeModule } from 'ng2-search-filter';
-
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -49,9 +45,6 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     MatDialogModule,
     MatProgressBarModule,
     MatTooltipModule,
-    MatIconModule,
-    MatPaginatorModule,
-    Ng2SearchPipeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
