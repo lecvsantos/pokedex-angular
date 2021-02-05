@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
 export class AppComponent implements OnInit {
   title = 'Pokedex';
   constructor(private router: Router) { }
-  ngOnInit() { this.goToLogin() }
-  goToLogin() {
-    // this.router.navigate(['/list']);
+  ngOnInit() { this.goToList() }
+  goToList() {
+    this.router.navigate(['/list']);
   }
 }
